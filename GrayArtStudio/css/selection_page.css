@@ -1,0 +1,70 @@
+body {
+  margin: 5%;
+  font-family: cursive;
+  font-size: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 37.5rem;
+  height: 37.5rem;
+  object-fit: contain;
+  margin-right: 2%;
+}
+
+.box{
+  margin-top: 40%;
+  margin-left: 5%;
+  margin-right: 2%;
+  padding: 3%;
+  width: 30rem;
+}
+
+.column {
+  align-content: center;
+  vertical-align: middle;
+}
+
+h5 {
+  margin: 0;
+}
+
+.inline,
+  p {
+    display: inline;
+  }
+
+.btn {
+  margin-top: 5%;
+  border-radius: 30px;
+  width: 140px;
+  font-family: cursive;
+  font-size: larger;
+  font-weight: bold;
+  background-color: lightgray;
+  border: 1px solid black;
+  color: black;
+}
+
+.btn:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}
+
+@media screen and (max-width: 1200px){
+  .box{
+    width: fit-content;
+    margin-top: 5%;
+    align-items: center;
+  }
+
+  .row {
+    display: block;
+  }
+  
+}

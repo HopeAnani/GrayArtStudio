@@ -1,0 +1,39 @@
+*{
+	padding: 5rem;
+	margin: 0rem;
+}
+
+body {
+	background-image: url(../image/landing\ page\ background.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	background-attachment: fixed;
+
+}
+
+img {
+	display: block;
+	/*padding: 5rem;*/
+	margin-left: auto;
+	margin-right: auto;
+	/*display: flex;*/
+	justify-content: center;
+    /*width: 50%;*/
+}
+
+a{
+	float: right;
+	line-height: 2;
+	display: inline-block;
+	padding: 0rem;
+}
+#next {
+	background-image: url(../icons/angle-right-solid.svg);
+	background-repeat: no-repeat;
+	display: inline-block;
+	padding: 1rem;
+	line-height:2;
+	float: right;
+	padding-right: 0rem;
+}

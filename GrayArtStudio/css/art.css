@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+}
+
+#ToArt {
+    background-color: rgba(0, 0, 0, 1);
+    height: 10px;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.slider {
+    width: 80em;
+    height: 30em;
+    background-image: url(../MikiArt/E.jpg);
+    margin: 2% auto;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    animation: slide 20s infinite;
+    margin-top: 6%;
+
+}
+
+@keyframes slide {
+    20% {
+        background-image: url(../MikiArt/A.webp);
+    }
+
+    40% {
+        background-image: url(../MikiArt/B.jpg);
+    }
+
+    60% {
+        background-image: url(../MikiArt/C.jpg);
+    }
+
+    80% {
+        background-image: url(../MikiArt/D.jpg);
+    }
+
+    100% {
+        background-image: url(../MikiArt/E.jpg);
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .slider {
+        width: 40em;
+        height: 30em;
+        background-image: url(../MikiArt/E.jpg);
+        margin: 2% auto;
+        margin-top: 15%;
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        animation: slide 20s infinite;
+    }
+
+    #ToArt {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 647px) {
+    .slider {
+        width: 35em;
+        height: 30em;
+        background-image: url(../MikiArt/E.jpg);
+        margin: 2% auto;
+        margin-top: 20%;
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        animation: slide 20s infinite;
+    }
+
+    #ToArt {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 562px) {
+    .slider {
+        width: 20em;
+        height: 28em;
+        background-image: url(../MikiArt/E.jpg);
+        margin: 2% auto;
+        margin-top: 20%;
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        animation: slide 20s infinite;
+    }
+
+    #ToArt {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 346px) {
+    .slider {
+        width: 15em;
+        height: 28em;
+        background-image: url(../MikiArt/E.jpg);
+        margin: 2% auto;
+        margin-top: 25%;
+        background-position: center;
+        background-size: cover;
+        overflow: hidden;
+        animation: slide 20s infinite;
+    }
+
+    #ToArt {
+        display: none;
+    }
+}

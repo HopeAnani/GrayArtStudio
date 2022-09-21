@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+body {
+	margin: 0;
+	padding: 0;
+	font-family:sans-serif;
+	background: url(../image/login\ background.png);
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-attachment: fixed;
+	background-size: cover;
+	
+}
+/* 
+.cover {
+	object-fit: cover;
+	width: 50px;
+	height: 100px;
+	filter: blur(8px);
+} */
+
+.box {
+	position: absolute;
+	top: 0%;
+	left: 35%;
+	transform:translate(-50px,-50px);
+	width: 400px;
+	padding: 40px;
+	background: rgba(0, 0, 0, 0);
+	/* box-shadow: 0 15px 25px rgba(0, 0, 0, .5); */
+	/* border-radius: 10px; */
+}
+
+.box img{
+	max-height: 291px;
+	max-width: 299px;
+	/* object-position: 805px 0px;; */
+	
+}
+
+.box .inputBox {
+	position: relative;
+}
+
+.box .inputBox input {
+	width: 100%;
+	padding: 10px 0;
+	font-size: 16px;
+	margin-bottom: 30px;
+	border: none;
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+	outline: none;
+	background: transparent;
+
+}
+
+::placeholder {
+	color: black;
+	opacity: 1;
+}
+
+.box .inputBox label {
+	/* position: absolute;
+	top: 0;
+	left: 0;
+	padding: 10px 0; */
+	font-size: 12px;
+	color: rgb(189, 191, 192);
+	/* pointer-events: none;
+	transition: 0.5s; */
+}
+
+/* .box .inputBox input:focus ~ label,
+.box .inputBox input:valid ~ label {
+	top: -18px;
+	left: 0;
+	color: #000; 
+	font-size: 12px;
+} */
+.forgot {
+	float: right;
+	font-size: 12px;
+	/* margin-top: 30px; */
+}
+
+.box input[type="submit"]{
+	background: transparent;
+	border-radius: 20px;
+	box-shadow: none;
+	outline: none;
+	color:rgb(255, 255, 255);
+	background: rgb(105, 105, 105);
+	padding: 3px 32px;
+	cursor: pointer;
+	font-family: 'Montserrat';
+}
+
+h5 {
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid rgba(0, 0, 0, .2);
+	line-height: 0.1em;
+	margin: 10px 0 20px;
+}
+
+h5 span {
+	color: rgb(189, 191, 192);
+	padding: 0 10px;
+}
+
+.eye {
+	position: absolute;
+}
+
+#hide1 {
+	display: none;
+}
+
+@media (max-width: 780px){
+	.box{
+		display: center;
+		justify-content: safe;
+		align-items: center;
+	}
+}
+
+#hide1,#hide2 {
+	line-height: 3;
+}
+

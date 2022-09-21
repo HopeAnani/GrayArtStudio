@@ -1,0 +1,48 @@
+body{
+    background-color:rgba(213, 213, 213, 0.988);
+}
+
+.form-control{
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.row .btn{
+    margin-inline-end: 10%;
+    margin-block-end: 5%;
+}
+.btn{
+    border-radius: 30px;
+    width: 140px;
+    font-family: "montserrat";
+    font-size: larger;
+    font-weight: bold;
+}
+
+#post{
+    background-color: rgba(255, 255, 255, .6);
+    border: 1px solid black;
+    color: black;
+}
+
+#post:hover {
+    background-color: rgba(255, 255, 255, 1.0);
+}
+
+#cancel{
+    background-color: rgba(0, 0, 0, .9);
+    border: 1px solid white;
+    color: white;
+}
+
+#cancel:hover {
+    background-color: black;
+}
+
+#floatingTextarea{
+    border-radius: 20px;
+}

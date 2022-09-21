@@ -1,0 +1,19 @@
+body {
+    background-color: lightgrey;
+}
+
+.form-control {
+    background-color: darkgray;
+}
+
+.btn {
+    border-radius: 30px;
+    width: 140px;
+    font-family: "montserrat";
+    font-size: larger;
+    font-weight: bold;
+}
+
+#floatingTextarea {
+    border-radius: 20px;
+}

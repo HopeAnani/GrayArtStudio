@@ -1,0 +1,142 @@
+* {
+	margin: 0rem;
+	box-sizing: border-box;
+}
+body {
+	background-color: rgba(213, 213, 213, 0.988);
+	background-position: center center;
+	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+header h1{
+	font-size: 2.5rem;
+	font-weight: 300;
+	color: black;
+	margin: 1rem;
+}
+
+.list {
+	display: flex;
+}
+
+input, button, textarea {
+	appearance: none;
+	border: none;
+	outline: none;
+	background: none;
+}
+
+#form {
+	margin: 1rem;
+}
+
+#input {
+	flex: 1 1 0%;
+	background-color: whitesmoke;
+	padding: 1rem;
+	margin-right: 1rem;
+	color: black;
+	font-size: 1.25rem;
+	width: 50%;
+}
+
+#input::placeholder {
+	color: grey;
+}
+
+#submit {
+	color: whitesmoke;
+	font-size: 1.25rem;
+	font-weight: 700;
+	background-image: linear-gradient(to right, black, gray);
+	cursor: pointer;
+	transition: 0.4s;
+}
+
+#submit:hover {
+	opacity: 0.8;
+}
+
+#submit:active {
+	opacity: 0.6;
+}
+
+main {
+	flex: 1 1 0%;
+	max-width: 800px;
+	width: 100%;
+	/*margin: 0 auto;*/
+}
+
+.Exhibition-list {
+	padding: 1rem;
+}
+
+.Exhibition-list h2 {
+	font-size: 1.5rem;
+	font-weight: 300;
+	color: black;
+	margin-bottom: 1rem;
+}
+
+#lists .list{
+	display: flex;
+	justify-content: space-between;
+	background-color: whitesmoke;
+	padding: 1rem;
+	border-radius: 1rem;
+	margin-bottom: 1rem;
+}
+
+.list .content {
+	flex: 1 1 0%;
+}
+
+.list .content .text{
+	color: black;
+	font-size: 1.125rem;
+	width: 100%;
+	display: block;
+	transition: 0.4s;
+}
+
+.list .content .text:not(:read-only){
+	color: green;
+}
+
+.list .actions {
+	display: flex;
+	margin: 0 -0.5rem;
+}
+
+.list .actions button {
+	cursor: pointer;
+	margin: 0 0.5rem;
+	font-size: 1.125rem;
+	font-weight: 700;
+	text-transform: uppercase;
+	transition: 0.4s;
+}
+
+.list .actions button:hover {
+	opacity: 0.8;
+}
+
+.list .actions button:active {
+	opacity: 0.6;
+}
+
+.list .actions .edit{
+	background-color: black;
+	color: whitesmoke;
+	border-radius: 1rem;
+}
+
+.list .actions .delete {
+	background-color: grey;
+	color: black;
+	border-radius: 1rem;
+}

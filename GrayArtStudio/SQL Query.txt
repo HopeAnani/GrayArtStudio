@@ -1,0 +1,5 @@
+CREATE DATABASE grayart;
+USE grayart;
+CREATE TABLE imageUpload (ID int PRIMARY KEY AUTO_INCREMENT, Title varchar(50), Size varchar(20), Medium varchar(100), Description varchar(200), Price varchar(50), Year int, image varchar(255));
+CREATE TABLE loginform (ID int PRIMARY KEY, user varchar(50), password varchar(50));
+CREATE TABLE Admin (ID int PRIMARY KEY, Exhibitions varchar(5000), Autobiography varchar(2000),ArtStatement varchar(2000),About varchar(2000),Instagram varchar(200),Facebook varchar(200),Twitter varchar(200),Linkedin varchar(200),Telegram varchar(200),Email varchar(200));

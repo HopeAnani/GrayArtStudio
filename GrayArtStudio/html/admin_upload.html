@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/admin_upload.css">
+    <script src="../javascript/admin_upload.js" defer></script>
+    <title>Upload Page</title>
+</head>
+
+<body>
+    <div>
+        <div class="row">
+            <div class="column">
+                <form action="../php/admin_upload_handler.php" method="POST" enctype="multipart/form-data">
+
+                    <label id="filelable" for="file">
+                        <i class="addimage"></i> &nbsp; Choose Art work
+                    </label>
+                    <input id="file" name="file" type="file" accept="image/*" required>
+                    <label for=" price">
+                        <h3>Price of the art work:</h3>
+                    </label><br>
+                    <input class="floatingTextarea" placeholder="$ **.**" type="text" id="price" name="price" required>
+                    <label for="date">
+                        <h3>Year:</h3>
+                    </label><br>
+                    <input class="floatingTextarea" placeholder="2022" type="number" id="price" name="year">
+                    <h3>Description about the art work:</h3>
+                    <textarea class="floatingTextarea" name="description"></textarea>
+
+            </div>
+            <div class="column">
+
+                <label for="title">
+                    <h3>Title of the art work:</h3>
+                </label><br>
+                <input class="floatingTextarea" type="text" id="title" name="title">
+                <label for="size">
+                    <h3>Size</h3>
+                </label>
+                <input class="floatingTextarea" name="size" type="text" name="size">
+                <label for="medium">
+                    <h3>Medium</h3>
+                </label>
+                <input class="floatingTextarea" name="medium" type="text">
+
+
+            </div>
+        </div>
+    </div>
+    <div>
+
+        <input type="submit" id="btn1" class="btn" value="Submit" name="submit">
+        <input type="reset" id="btn2" class="btn" value="Cancel" name="reset">
+        </form>
+    </div>
+</body>
+
+</html>
