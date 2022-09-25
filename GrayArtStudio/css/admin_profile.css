@@ -45,7 +45,7 @@ input[type=text] {
     /*border-bottom: 0.5px solid black;*/
     background-color: rgba(213, 213, 213, 0.988);
     cursor: pointer;
-    color: color: rgba(0, 0, 0, .8);;
+    color: rgba(0, 0, 0, .8);
 }
 
 input[type=email] {
